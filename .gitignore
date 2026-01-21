@@ -1,1 +1,4 @@
 .env
+*.log
+!hoangvu.log
+temp/hoangvu.log
