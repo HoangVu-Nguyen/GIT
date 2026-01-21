@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Demo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f6f8;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .card {
+            background: white;
+            padding: 24px;
+            border-radius: 12px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+            width: 320px;
+            text-align: center;
+        }
+
+        h1 {
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        p {
+            color: #666;
+        }
+
+        button {
+            margin-top: 16px;
+            padding: 10px 16px;
+            border: none;
+            border-radius: 8px;
+            background: #007bff;
+            color: white;
+            cursor: pointer;
+            font-size: 14px;
+        }
+
+        button:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <h1>HTML Demo</h1>
+    <p>Đây là file HTML demo đơn giản 🚀</p>
+    <button onclick="sayHello()">Bấm thử</button>
+</div>
+
+<script>
+    function sayHello() {
+        alert("Xin chào! HTML + CSS + JS đang hoạt động 😄");
+    }
+</script>
+
+</body>
+</html>
